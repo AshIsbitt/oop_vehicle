@@ -14,3 +14,14 @@ The aim of this project is to practice new Object-oriented skills with python, a
 
 ### Available Methods
 
+Vehicle Class
+- accelerate
+- breaking 
+
+Car Class
+- park
+- honk
+
+Plane Class
+- fly
+- land
