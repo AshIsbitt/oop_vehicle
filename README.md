@@ -16,7 +16,7 @@ The aim of this project is to practice new Object-oriented skills with python, a
 
 Vehicle Class
 - accelerate
-- breaking 
+- breaking
 
 Car Class
 - park
@@ -25,3 +25,9 @@ Car Class
 Plane Class
 - fly
 - land
+
+## Installation and Running
+
+```python
+run_vehicles()
+```
