@@ -20,7 +20,7 @@ print("Testing Vehicle with Passengers = 4 and Cargo = 6. Expected result: 4, 3"
 print(vehicle1.n_passengers)
 print(vehicle1.cargo_size)
 
-print("Testing Vehicle with Passengers = 12 and Cargo = 10. Expected result: 12, 10")
+print("\nTesting Vehicle with Passengers = 12 and Cargo = 10. Expected result: 12, 10")
 print(vehicle2.n_passengers)
 print(vehicle2.cargo_size)
 
@@ -30,15 +30,19 @@ print(vehicle2.cargo_size)
 car1 = Car(4, 6, "Isuzu", 25, 250)
 car2 = Car(12, 10, "Tesla", 84, 150)
 
+print("\nTesting Car accelleration")
 print(car1.accelerate())
 print(car2.accelerate())
 
+print("\nTesting Car breaking")
 print(car1.breaking())
 print(car2.breaking())
 
+print("\nTesting Car honking")
 print(car1.honk())
 print(car2.honk())
 
+print("\nTesting Car parking")
 print(car1.park())
 print(car2.park())
 
@@ -49,14 +53,18 @@ print(car2.park())
 plane1 = Plane(300, 350, "Orange", "UK")
 plane2 = Plane(500, 430, "Green", "JPN")
 
+print("\nTesting plane accelleration")
 print(plane1.accelerate())
 print(plane2.accelerate())
 
+print("\nTesting plane breaking")
 print(plane1.breaking())
 print(plane2.breaking())
 
+print("\nTesting plane flight")
 print(plane1.fly())
 print(plane2.fly())
 
+print("\nTesting plane landing")
 print(plane1.land())
 print(plane2.land())
